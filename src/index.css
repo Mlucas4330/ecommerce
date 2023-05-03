@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+.text-end {
+    text-align: end;
+}
+
 a {
     text-decoration: none;
     color: black;

@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+form {
+    display: grid;
+    width: 20em;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.name_last_name {
+    display: flex;
+    gap: 1rem;
+}
+
+.login {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}

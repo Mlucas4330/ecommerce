@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+
+.btn_login {
+    background-color: indianred;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.btn_login:hover {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.forget_create {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
