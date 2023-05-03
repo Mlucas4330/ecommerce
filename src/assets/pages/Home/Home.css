@@ -1,0 +1,14 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin: 5rem 0;
+}
+
+
+.img {
+    width: 150px;
+    height: 250px;
+    background-color: bisque;
+    border-radius: 1rem;
+}

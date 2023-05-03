@@ -1,12 +1,8 @@
-import { Footer } from '../../components/Footer';
-import { Header } from '../../components/Header';
+import { Footer } from '../../../components/Footer/Footer';
+import { Header } from '../../../components/Header/Header';
+import './Home.css';
 
 const produtos1: string[] = ['Produto', 'Produto', 'Produto'];
-const produtos2: string[] = ['Produto', 'Produto', 'Produto', 'Produto', 'Produto', 'Produto'];
-
-function teste() {
-    console.log('oi');
-}
 
 export const Home = () => {
     return (
@@ -14,28 +10,23 @@ export const Home = () => {
             <Header />
             <main>
                 <section>
-                    <h1>Título</h1>
-                    <p>
+                    <h1 className="text-center tittle">Título</h1>
+                    <p className="text-center text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo molestias dolor commodi ab. Ipsam unde earum
                         quia optio laudantium, nisi veniam reprehenderit aliquam dolore porro ducimus voluptates neque eveniet.
                     </p>
-                    <div className="flex">
+                    <div className="products">
                         {produtos1.map((item, i) => (
                             <div className="item" key={i}>
-                                <p>{item}</p>
-                                <button
-                                    onClick={() => {
-                                        teste();
-                                    }}
-                                >
-                                    Comprar
-                                </button>
-                                <button>Adicionar ao carrinho</button>
+                                <div className="img"></div>
+                                <p className="text-center">{item}</p>
                             </div>
                         ))}
                     </div>
 
-                    <button>Confira os produtos</button>
+                    <div className="text-center">
+                        <button>Confira os produtos</button>
+                    </div>
                 </section>
                 <section>IMAGEM</section>
                 <section>3 IMAGENS</section>

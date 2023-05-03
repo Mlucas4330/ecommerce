@@ -1,0 +1,24 @@
+header {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    display: grid;
+    justify-content: center;
+}
+
+.car_button {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
